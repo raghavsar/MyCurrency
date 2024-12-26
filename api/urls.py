@@ -1,4 +1,4 @@
-from django.urls import path, include
+from django.urls import path, include,
 from rest_framework.routers import DefaultRouter
 from fx_rates.views import CurrencyViewSet,CurrencyExchangeRateViewSet
 
@@ -8,7 +8,7 @@ router = DefaultRouter()
 router.register(r'currencies', CurrencyViewSet, basename="curreny")
 router.register(r'exchange_rates', CurrencyExchangeRateViewSet, basename="currency_exchange")
 
-urlpatterns = [
+urlpatterns = [,,,
     path('', include(router.urls)),
 
 
