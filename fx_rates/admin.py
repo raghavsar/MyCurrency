@@ -1,4 +1,6 @@
-
+import numpy
+import pandas
+import matplotlib.pyplot as plt
 from django.contrib import admin
 from .models import Currency, CurrencyExchangeRate
 
